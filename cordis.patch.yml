@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-tool-surface-proof
+      name: dsh-tool-surface-proof
+      config:
+        workspaceRoot: .
