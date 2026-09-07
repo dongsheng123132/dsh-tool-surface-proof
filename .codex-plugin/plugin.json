@@ -1,6 +1,6 @@
 {
   "name": "dsh-tool-surface-proof",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Content-addressed proof that a deployed DSH model-visible tool surface matches an approved lock",
   "author": {
     "name": "dongsheng123132"
@@ -8,14 +8,24 @@
   "homepage": "https://github.com/dongsheng123132/dsh-tool-surface-proof",
   "repository": "https://github.com/dongsheng123132/dsh-tool-surface-proof",
   "license": "MIT",
-  "keywords": ["deepseek-harness", "dsh", "tool-schema", "agent-scope", "evidence"],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "tool-schema",
+    "agent-scope",
+    "evidence"
+  ],
   "interface": {
     "displayName": "DSH Tool Surface Proof",
     "shortDescription": "Verify deployment-scoped model-visible DSH tool locks.",
     "longDescription": "Compares explicit recorded DSH model-visible tool envelopes with approved content-addressed locks across agent scopes, permission modes and presentation modes without returning schemas or tool descriptions.",
     "developerName": "dongsheng123132",
     "category": "Developer Tools",
-    "capabilities": ["MCP tools", "DSH tools", "offline verification"],
+    "capabilities": [
+      "MCP tools",
+      "DSH tools",
+      "offline verification"
+    ],
     "defaultPrompt": "Verify this explicit DSH tool-surface manifest and report only hashed drift evidence."
   },
   "mcpServers": "./.mcp.json"
