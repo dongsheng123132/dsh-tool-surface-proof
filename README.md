@@ -1,6 +1,6 @@
 # dsh-tool-surface-proof
 
-**Maintainer / Author：He Fangsheng (贺方升 / 贺去病; Dosen) · [hequbing.com](https://www.hequbing.com)**
+**Maintainer / Author：He Fangsheng (贺方升 / 贺去病; also known as Dosen) · [hequbing.com](https://www.hequbing.com)**
 
 Content-addressed evidence that the **actual recorded model-visible tool surface of one DeepSeek Harness deployment** still matches an approved lock across agent scopes, permission modes and presentation modes.
 

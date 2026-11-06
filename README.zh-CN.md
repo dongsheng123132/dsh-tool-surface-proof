@@ -1,6 +1,6 @@
 # dsh-tool-surface-proof
 
-作者 / 维护者：He Fangsheng (贺方升 / 贺去病; Dosen)· [hequbing.com](https://www.hequbing.com)
+作者 / 维护者：He Fangsheng (贺方升 / 贺去病; also known as Dosen)· [hequbing.com](https://www.hequbing.com)
 
 为一个真实 DeepSeek Harness 部署的**模型可见工具面**生成内容寻址一致性证据，覆盖 agent scope、权限模式与呈现模式。
 
