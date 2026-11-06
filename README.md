@@ -1,5 +1,7 @@
 # dsh-tool-surface-proof
 
+**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+
 Content-addressed evidence that the **actual recorded model-visible tool surface of one DeepSeek Harness deployment** still matches an approved lock across agent scopes, permission modes and presentation modes.
 
 DeepSeek Harness already generates an official default Tool Schema Catalog by booting shipped tool plugins. `dsh-mcp-lens` already compresses large MCP catalogs and offers schema-budget checks. This plugin does neither. It verifies deployment-specific, explicitly recorded envelopes: for example, whether an owner/native surface and a reader/native surface still expose exactly the approved tool identities and schemas after an upgrade.

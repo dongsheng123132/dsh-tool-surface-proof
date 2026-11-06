@@ -1,5 +1,7 @@
 # dsh-tool-surface-proof
 
+作者 / 维护者：贺去病（贺方升 / Dosen）· [hequbing.com](https://www.hequbing.com)
+
 为一个真实 DeepSeek Harness 部署的**模型可见工具面**生成内容寻址一致性证据，覆盖 agent scope、权限模式与呈现模式。
 
 DSH 官方已经通过真实启动工具插件生成默认 Tool Schema Catalog；`dsh-mcp-lens` 也已经覆盖大型 MCP 目录压缩与 schema budget。本插件不复制这些能力，只验证部署态显式录制 envelope 是否仍等于人工批准的哈希锁。例如升级后，owner/native 与 reader/native 两个表面是否仍暴露完全相同的工具身份与 schema。
